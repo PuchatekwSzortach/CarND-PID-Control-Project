@@ -8,44 +8,44 @@ Following is a history of parameters I used, in chronological order, along with 
 
 #### Parameters: Kp = 0.1, Kd = 0, Ki = 0, throttle = 0.1
 Typical errors:
-- p_error - 0.5 to 1.2
-- d_error - 0.01 to 0.05
-- i_error - 1250 after crossing the bridge
+- `p_error` - 0.5 to 1.2
+- `d_error` - 0.01 to 0.05
+- `i_error` - 1250 after crossing the bridge
 
 #### Parameters: Kp = 0.4, Kd = 0, Ki = 0, throttle = 0.1
 Typical errors:
-- p_error - 0.5 to 1.2
-- d_error - 0.01 to 0.05
-- i_error - 350 after crossing the bridge
+- `p_error` - 0.5 to 1.2
+- `d_error` - 0.01 to 0.05
+- `i_error` - 350 after crossing the bridge
 
 #### Parameters: Kp = 0.4, Kd = 1, Ki = 0, throttle = 0.2
 Typical errors:
-- p_error - 0.2 to 0.4
-- d_error - 0.1 to 1
-- i_error - 210 after crossing the bridge
+- `p_error` - 0.2 to 0.4
+- `d_error` - 0.1 to 1
+- `i_error` - 210 after crossing the bridge
 Noticeable wobbling
 
 #### Parameters: Kp = 0.4, Kd = 1, Ki = 0, throttle = 0.3 (project default)
 Typical errors:
-- p_error - 0.2 to 1
-- d_error - 0.05 to 0.2
-- i_error - 160 after crossing the bridge
+- `p_error` - 0.2 to 1
+- `d_error` - 0.05 to 0.2
+- `i_error` - 160 after crossing the bridge
 Very noticeable wobbling
 
 #### Parameters: Kp = 0.1, Kd = 1, Ki = 0, throttle = 0.3 (project default)
 Typical errors:
-- p_error - 0.1 to 0.3
-- d_error - 0.001 to 0.02
-- i_error - 500 after crossing the bridge
+- `p_error` - 0.1 to 0.3
+- `d_error` - 0.001 to 0.02
+- `i_error` - 500 after crossing the bridge
 Reasonably smooth ride
 
 #### Ki at 0.1 and 0.01 leads vehicle to drive off the track very quickly.
 
 #### Parameters: Kp = 0.1, Kd = 1, Ki = 0.001, throttle = 0.3 (project default)
 Typical errors:
-- p_error - 0.2 to 0.5
-- d_error - 0.01 to 0.05
-- i_error - 35 after crossing the bridge
+- `p_error` - 0.2 to 0.5
+- `d_error` - 0.01 to 0.05
+- `i_error` - 35 after crossing the bridge
 Reasonably smooth ride
 
 #### Parameters: Kp = 0.1, Kd = 1, Ki = 0.001, throttle = 0.3 (project default)
